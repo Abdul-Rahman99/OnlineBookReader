@@ -30,7 +30,7 @@ int ShowReadMenu(const vector<string> &choices) {
 	return ReadInt(1, choices.size());
 }
 
-string GetCurrentTimeDate() {	// src: https://stackoverflow.com/questions/17223096/outputting-date-and-time-in-c-using-stdchrono
+string GetCurrentTimeDate() {
 	auto now = std::chrono::system_clock::now();
 	auto in_time_t = std::chrono::system_clock::to_time_t(now);
 
@@ -319,19 +319,19 @@ public:
 		FreeLoadedData();
 		// Some "Dummy Data" for simplicity
 		User* user1 = new User();
-		user1->SetUserName("mostafa");
+		user1->SetUserName("Abdelrahman");
 		user1->SetPassword("111");
-		user1->SetEmail("most@gmail.com");
+		user1->SetEmail("mr.abdo1213@gmail.com");
 		user1->SetIsLibraryAdmin(true);
-		user1->SetName("Mostafa Saad Ibrahim");
+		user1->SetName("Abdelrahman Ashraf Gamal");
 		userame_userobject_map[user1->GetUserName()] = user1;
 
 		User* user2 = new User();
-		user2->SetUserName("asmaa");
+		user2->SetUserName("khatap");
 		user2->SetPassword("222");
-		user2->SetEmail("asmaa@gmail.com");
+		user2->SetEmail("khatap@gmail.com");
 		user2->SetIsLibraryAdmin(false);
-		user2->SetName("Asmaa Saad Ibrahim");
+		user2->SetName("khatap");
 		userame_userobject_map[user2->GetUserName()] = user2;
 	}
 
@@ -415,7 +415,7 @@ public:
 
 		Book* book1 = new Book();
 		book1->SetIsbn("00001");
-		book1->SetAuthor("Mostafa");
+		book1->SetAuthor("Abdelrahman");
 		book1->SetTitle("C++ how to program");
 		vector<string> pages1 = { "A C++", "B C++", "C C++", "D C++", "E C++" };
 		book1->SetPages(pages1);
@@ -423,7 +423,7 @@ public:
 
 		Book* book2 = new Book();
 		book2->SetIsbn("00002");
-		book2->SetAuthor("Morad");
+		book2->SetAuthor("Hamza");
 		book2->SetTitle("Intro to algo");
 		vector<string> pages2 = { "A Algo", "B Algo", "C Algo", "D Algo", "E " };
 		book2->SetPages(pages2);
@@ -431,7 +431,7 @@ public:
 
 		Book* book3 = new Book();
 		book3->SetIsbn("00003");
-		book3->SetAuthor("Morad");
+		book3->SetAuthor("Mohanad");
 		book3->SetTitle("Data Structures in C++");
 		vector<string> pages3 = { "A Data", "B Data", "C Data", "D Data", "E Data" };
 		book3->SetPages(pages3);
