@@ -22,7 +22,7 @@ User Accounts: The app supports user accounts, allowing users to create and mana
 Object-Oriented Programming (OOP): The app follows OOP principles to organize the codebase into classes and objects, promoting code reusability, encapsulation, and modularity.
 Installation and Setup:
 
-# Clone the repository: git clone https://github.com/username/cpp-online-book-reader.git
+# Clone the repository: git clone https://github.com/Abdul-Rahman99/OnlineBookReader.git
 Navigate to the project directory: cd cpp-online-book-reader
 Compile the source code: Use a C++ compiler (e.g., g++) to compile the source files.
 Run the executable: Execute the compiled program to launch the online book reader app.
